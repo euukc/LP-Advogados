@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Contato(){
     return (
-        <section className="w-full h-[400px] bg-[#995706] text-black flex justify-center items-center pt-[30px]">
+        <section className="w-full h-[400px] bg-[#995706] text-black flex justify-center items-center pt-[30px]" id="section-contato">
             <div className="w-[60%] flex flex-col gap-2 px-6">
                 <h1 className="lg:text-[30px] text-[20px]">Fale Conosco</h1>
                 <h2> Entre em contato com o escritório por meio do e-mail, telefone ou WhatsApp</h2>

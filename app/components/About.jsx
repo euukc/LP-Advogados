@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <section className="w-full lg:h-full h-full bg-[#995706] py-[20px]">
+        <section className="w-full lg:h-full h-full bg-[#995706] py-[20px]" id="section-escritorio">
             <div className="w-full justify-center items-center h-full flex flex-col lg:flex-row gap-[20px]">
                 <div className="w-[80%] lg:w-[25%] lg:h-[320px] h-[150px] bg-white rounded-lg flex gap-8 px-[10px] pt-4">
                     <div className="text-black">
@@ -37,7 +37,7 @@ export default function About() {
                     <Image src="/lawyer-1.jpg" width={300} height={1200} className="rounded-lg" />
                 </div>
                 <div className="w-[80%] lg:w-[500px] h-[500px] lg:h-[800px] bg-white flex flex-col text-black items-center justify-center pt-[20px] px-[20px]">
-                    <span className="text-[20px] lg:text-[60px] text-left mb-8 ">A Profissional</span>
+                    <span className="text-[20px] lg:text-[60px] text-left mb-8 rounded-b-lg">A Profissional</span>
                     <h1><strong>Maya Manuela Canto Di Camelli</strong></h1>
                     <h2>Advogada</h2>
                     <h3>10252 OAB/SP</h3>
