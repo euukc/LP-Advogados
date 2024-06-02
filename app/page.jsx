@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Areas from "./components/Areas";
 import Contato from "./components/Contato";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Areas/>
       <Contato />
+      <Footer/>
 
     </main>
   );
