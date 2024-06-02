@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <section className="w-full lg:h-full h-full bg-[#995706] py-[20px]" id="section-escritorio">
+        <section className="w-full lg:h-full h-full bg-[#995706] py-[80px]" id="section-escritorio">
             <div className="w-full justify-center items-center h-full flex flex-col lg:flex-row gap-[20px]">
                 <div className="w-[80%] lg:w-[25%] lg:h-[320px] h-[150px] bg-white rounded-lg flex gap-8 px-[10px] pt-4">
                     <div className="text-black">
